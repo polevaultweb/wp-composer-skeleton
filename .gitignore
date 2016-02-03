@@ -1,0 +1,8 @@
+.idea/
+vendor
+config/prod.php
+config/dev.php
+config/keys.php
+htdocs/wp
+htdocs/content/plugins
+htdocs/content/themes/twenty*

@@ -1,0 +1,37 @@
+{
+  "name": "polevaultweb/wp-composer-skeleton",
+  "keywords": [
+    "WordPress"
+  ],
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Iain Poulson",
+      "email": "iain@polevaultweb.com",
+      "homepage": "http://www.polevaultweb.com/"
+    }
+  ],
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.4.*",
+    "wpackagist-plugin/akismet": "*",
+    "wpackagist-theme/twentyfifteen": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "htdocs/content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "htdocs/content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "htdocs/wp"
+  }
+}
