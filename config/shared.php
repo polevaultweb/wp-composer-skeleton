@@ -6,7 +6,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-define( 'WPLANG', 'en_GB' );
+define( 'WPLANG', '' );
 
 if ( ! file_exists( dirname( __FILE__ ) . '/keys.php' ) ) {
 	$keys = file_get_contents( 'https://api.wordpress.org/secret-key/1.1/salt/' );
