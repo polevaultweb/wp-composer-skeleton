@@ -4,5 +4,6 @@ config/prod.php
 config/dev.php
 config/keys.php
 htdocs/wp
+htdocs/content/uploads
 htdocs/content/plugins
 htdocs/content/themes/twenty*
