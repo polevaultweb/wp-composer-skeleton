@@ -8,10 +8,10 @@ include $config_dir . 'shared.php';
 
 if ( file_exists( $config_dir . 'prod.php' ) ) {
 	define( 'WP_LOCAL_DEV', false );
-	if ( ! defined( 'WP_DEBUG' ) ) {
-		define( 'WP_DEBUG', false );
-	}
 	include $config_dir . 'prod.php';
+    if ( ! defined( 'WP_DEBUG' ) ) {
+        define( 'WP_DEBUG', false );
+    }
 } else {
 	define( 'WP_LOCAL_DEV', true );
 	include $config_dir . 'dev.php';
