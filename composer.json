@@ -35,5 +35,8 @@
       "htdocs/content/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "htdocs/wp"
+  },
+  "autoload": {
+    "psr-4": {"PoleVaultWeb\\Skeleton\\": "app/"}
   }
 }

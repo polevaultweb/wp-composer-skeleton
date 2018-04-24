@@ -13,6 +13,7 @@ WordPress site skeleton using Composer
 - Add plugins to `composer.json`, eg. `composer require wpackagist-plugin/wordpress-seo`
 - Visit your site to run the Installation
 - Ensure `site_url` has `/wp` suffix but `home` does not
+- Add all your site code to /app/App.php (changing the namespace there and composer.json)
 
 
 
