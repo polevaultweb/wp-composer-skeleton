@@ -19,7 +19,8 @@
     }
   ],
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "sort-packages": true
   },
   "require": {
     "php": ">=5.4",
