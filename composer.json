@@ -24,7 +24,7 @@
   },
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.9.*",
+    "johnpbloch/wordpress": "5.*",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/limit-login-attempts": "*",
     "wpackagist-plugin/nginx-cache": "*",
